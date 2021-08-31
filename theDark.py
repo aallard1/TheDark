@@ -22,8 +22,10 @@ def intro():
                     print("That was the wrong choice...")
                     print("Your screams echo in the vast darkness as you are torn to pieces.")
                     counter = 0
-                    choiceInput = input("Press enter to play again")
-                    while choiceInput == '':
+                    choiceInput = input("Press any key to play again.\n(Press enter to quit) ")
+                    if choiceInput == '':
+                        quit()
+                    while choiceInput != '':
                         break
     if userInput == '':
         quit()
