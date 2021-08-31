@@ -1,1 +1,2 @@
 # TheDark
+This is a text-based console game. The concept is not fully formed yet. I know I will include some form of combat and a character menu (location where player can alter their stats by equipping items, view their stats, look in their inventory, etc.).
