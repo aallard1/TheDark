@@ -1,5 +1,21 @@
 import random
 
+
+class entity(): # Player and enemy objects derive from me
+    def __init__(self, health, mana, stamina, gold, experience, level):
+        self.health = health
+        self.mana = mana
+        self.stamina = stamina
+        self.gold = gold
+        #exp
+        #level
+        pass
+class gameEngine():
+    def __init__():
+        pass
+
+
+
 def main():
     intro()
 
@@ -33,3 +49,8 @@ def intro():
 
 if __name__ == "__main__":
     main()
+
+
+# TODO
+# - Implement console clear screen "cls"
+#
